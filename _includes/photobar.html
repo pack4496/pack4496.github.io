@@ -1,0 +1,9 @@
+<div id='photobar'>
+  {% for image in site.static_files %}
+    {% if image.path contains 'images/photobar' %}
+        <img class='photobar-image' src="{{ site.baseurl }}{{ image.path }}" alt="image" width='95' />
+    {% endif %}
+  {% endfor %}
+  <a href='/photos/'>Pack Photos</a>
+  <div class='clear'></div>
+</div>

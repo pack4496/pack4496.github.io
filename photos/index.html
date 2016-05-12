@@ -1,0 +1,16 @@
+---
+layout: default
+title: Photos
+permalink: /photos/
+---
+
+<div id='photos'>
+  {% for image in site.static_files %}
+    {% if image.path contains 'images/photos' %}
+        <div class='photo-frame'>
+        <img class='photo' src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+        </div>
+    {% endif %}
+  {% endfor %}
+  <div class='clear'></div>
+</div>

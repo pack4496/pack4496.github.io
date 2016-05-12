@@ -1,0 +1,50 @@
+---
+layout: page
+title: Calendar
+permalink: /calendar/
+menu: true
+---
+
+<ul class='calendar'>
+
+{% for event in site.data.events %}
+
+<li>
+  <i class="fa fa-calendar"></i>
+  {{ event.date }} -
+  <strong>
+    {% if event.link %}
+      <a href="{{ event.link }}">{{ event.title }}</a>
+    {% else %}
+      {{ event.title }}
+    {% endif %}
+  </strong>
+  {% if event.categories contains 'hiking' %}
+    <img src='/images/hiking.png' width='25' />
+  {% endif %}
+
+  {% if event.categories contains 'camping' %}
+    <img src='/images/camping.png' width='25' />
+  {% endif %}
+
+  {% if event.categories contains 'fire' %}
+    <img src='/images/fire.png' width='25' />
+  {% endif %}
+
+  {% if event.categories contains 'swimming' %}
+    <img src='/images/swimming.png' width='25' />
+  {% endif %}
+
+  {% if event.categories contains 'biking' %}
+    <img src='/images/biking.png' width='25' />
+  {% endif %}
+
+  {% if event.categories contains 'picnic' %}
+    <img src='/images/picnic.png' width='25' />
+  {% endif %}
+
+</li>
+
+
+{% endfor %}
+</ul>

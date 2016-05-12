@@ -1,0 +1,335 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/**
+ * Basic styling
+ */
+body {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+}
+
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $spacing-unit;
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $base-font-weight;
+}
+
+
+
+/**
+ * Links
+ */
+a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($brand-color, 15%);
+    }
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
+
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $grey-color;
+    border-left: 4px solid $grey-color-light;
+    padding-left: $spacing-unit / 2;
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-style: italic;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: 15px;
+    border: 1px solid $grey-color-light;
+    border-radius: 3px;
+    background-color: #eef;
+}
+
+code {
+    padding: 1px 5px;
+}
+
+pre {
+    padding: 8px 12px;
+    overflow-x: auto;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+
+
+/**
+ * Wrapper
+ */
+.wrapper {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
+
+
+
+/**
+ * Clearfix
+ */
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+
+/**
+ * Icons
+ */
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}
+
+.events {
+    background-color: $cub-scout-yellow;
+    padding: 1em 0;
+}
+
+.rank-image {
+    float: left;
+    margin-right: 1.25em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.rank-description {
+    clear: both;
+    margin: 1em 0;
+}
+.boys-life-image {
+    float:left;
+    margin: 1em 1.5em 1em 0;
+}
+.boys-life-images {
+    margin: 1em 0;
+}
+.pack-t-shirts {
+    clear: both;
+    margin: 1em 0;
+}
+.pack-t-shirt {
+    float: left;
+    margin: 1em 1.5em 1em 0;
+}
+#photobar {
+    background-color: #eeeeee;
+    padding: 2em;
+    min-height: 56px;
+    .photobar-image {
+        float: left;
+        margin: .5em;
+    }
+}
+.photo-frame {
+    width: 21em;
+    height: 22em;
+    float: left;
+    text-align: center;
+    background-color: #000000;
+    margin: 0.25em;
+}
+.photo {
+    margin: 1em;
+    max-height: 20em;
+    max-width: 20em;
+}
+.clear {
+    clear: both;
+}
+.sub_title {
+  font-size: 1.2em;
+  color: #aaaaaa;
+  margin: 0 0 1em 0;
+}
+.home {
+  h1 {
+    font-size: 2.4em;
+    margin-bottom: 0;
+  }
+  h2 {
+    font-size: 1.8em;
+    text-transform: uppercase;
+    font-weight: 600;
+    a {
+      color: $cub-scout-blue;
+    }
+  }
+}
+ul.calendar {
+  list-style-type: none;
+  margin-left: 0;
+  li {
+      margin: 0.5em 0 0 0;
+      border-bottom: 1px solid #ddd;
+      padding: .5em 0;
+  }
+}
+
+.home {
+    article {
+        margin: 0 0 3em 0;
+    }
+}
+.site-title {
+    margin: .6em 0 0 0;
+}
+
+ul.learn-more-links {
+  list-style-type: none;
+}
+
+.learn-more-links {
+  background-color: #eeeeee;
+  float: right;
+  padding: 1em 1em 1em 1em;
+  width: 17em;
+  margin: 1em 0 1em 1em;
+  text-align: right;
+  ul { 
+    list-style-type: none;
+  }
+}
+.trigger {
+  font-size: 0.90em;
+}
+a.link-button {
+  padding: 0.3em 1em;
+  background-color: $cub-scout-blue;
+  color: #ffffff;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.events {
+  h2 {
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+}
+.site-header {
+  border-bottom: 8px solid $cub-scout-blue;
+}
