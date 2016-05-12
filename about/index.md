@@ -13,6 +13,8 @@ Like all Packs, we're a parent-run organization dedicated to giving our kids a c
 
 Whether we're camping as families, designing and racing Pinewood Derby cars, introducing kids to rock climbing at Island Rock Gym, learning to safely participate in archery and BB gun shooting at Summer Camp, or any of our dozens of other activities, the kids in our Pack are always learning and having fun.
 
+<img src='/images/photos/fort-worden-hike.jpg' width='100%' />
+
 We currently have nearly 50 Scouts as part of our Pack and are always looking to add more kids to our group.
 
 {% include about-links.md %}

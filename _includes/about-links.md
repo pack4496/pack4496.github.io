@@ -1,5 +1,5 @@
 <div class='about-links'>
-  <h4>Pack 4496 Links</h4>
+  <h4>Pack 4496</h4>
   <ul>
     {% for page in site.pages %}
     {% if page.categories contains "about" %}

@@ -1,5 +1,5 @@
 <div class='learn-more-links'>
-  <h4>More About Cub Scouting</h4>
+  <h4>About Cub Scouting</h4>
 
   <ul>
     {% for page in site.pages %}
