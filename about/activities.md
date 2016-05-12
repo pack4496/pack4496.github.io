@@ -2,12 +2,15 @@
 layout: page
 title: Activities
 permalink: /about-our-pack/activities
+categories: about
 ---
 
 The fun never stops at Pack 4496. Throughout the school year - and over the summer, but to a lesser degree - our Cub Scouts get to participate in dozens of fun activities as part of our Pack. Here are a few of the favorites:
 
 ### Family Camp
 Moms, dads, sons and daughters come together at Camp Yeomalt for a one-night camping experience to kick off the year. After pitching our tents, our Cub Scouts work with local Boy Scout Troops on various achievements and then some of the Dens help with the preparation for dinner. After meal time, we have a campfire, share stories and skits, hand out awards earned over the summer, and then usually stay up way too late. The next morning, some of the Dens help with breakfast preparation before we do an all camp clean-up and head home.
+
+{% include about-links.md %}
 
 ### Pumpkin Not-So-Carving
 Instead of carving pumpkins, we add to them. Scouts bring fruits and vegetables and using toothpicks, they create some wild masterpieces.

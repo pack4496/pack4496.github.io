@@ -13,8 +13,9 @@ Like all Packs, we're a parent-run organization dedicated to giving our kids a c
 
 Whether we're camping as families, designing and racing Pinewood Derby cars, introducing kids to rock climbing at Island Rock Gym, learning to safely participate in archery and BB gun shooting at Summer Camp, or any of our dozens of other activities, the kids in our Pack are always learning and having fun.
 
-
 We currently have nearly 50 Scouts as part of our Pack and are always looking to add more kids to our group.
+
+{% include about-links.md %}
 
 All Packs throughout the country are sponsored by a Chartered Organization, usually a church or school interested in helping youth in their communities. Pack 4496's Chartered Organization is Rolling Bay Presbyterian Church (located across from Bay Hay & Feed), where we hold some of our Pack meetings. We are not affiliated with the church beyond our chartered status and our membership comes from many different faiths and a diverse set of family structures. We are inclusive of all who want to participate in Scouting.
 

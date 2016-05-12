@@ -19,6 +19,8 @@ Last year, we had 16 attendees and I'd love to beat that number this year!
 - **REGISTRATION:** Call (or fax) BSA - 206-725-0361
 - **CAMPSITE:** Appaloosa Country
 
+<img src="/images/photos/camp-edwards-dining.jpg" width='650' />
+
 Details about the Resident Camp experience are attached, but if you're thinking of going, it's IMPERATIVE that you put down a $20/person deposit ASAP so we secure our spots and no one gets left out. To do so, please call the Cub Scout Camping Department at 206-725-0361 and tell them you're with Pack 4496 and want to register for Camp Edward Resident Camp for the August 11-14 session, and request the campsite Appaloosa Country. Alternatively, you can fax in the registration form.
 
 <img src="/images/camp-edward-water.jpg" width='550'/>

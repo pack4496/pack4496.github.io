@@ -306,12 +306,24 @@ ul.learn-more-links {
 .learn-more-links {
   background-color: #eeeeee;
   float: right;
-  padding: 1em 1em 1em 1em;
+  padding: 1em;
   width: 17em;
   margin: 1em 0 1em 1em;
   text-align: right;
   ul { 
     list-style-type: none;
+  }
+}
+
+.about-links {
+  background-color: #eeeeee;
+  float: left;
+  padding: 1em;
+  width: 14em;
+  margin: 1em 1.5em 1em 0;
+  text-align: left;
+  ul { 
+    
   }
 }
 .trigger {

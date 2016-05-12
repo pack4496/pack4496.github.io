@@ -2,6 +2,7 @@
 layout: page
 title: Adult Leadership
 permalink: /about-our-pack/adult-leadership
+categories: about
 ---
 
 To be a Cub Scout leader, adults must go through a criminal background check and have completed a Youth Protection Training course. Our Pack also asks that our adult leaders complete training certification by the Boy Scouts of America, signifying completion of four separate training sessions designed to make them better leaders for the boys in the Pack. Leaders who complete this cycle wear the Trained patch.
@@ -10,6 +11,8 @@ To be a Cub Scout leader, adults must go through a criminal background check and
 
 ## Cubmaster: Carson Cole
 Role: Plans monthly Pack meetings and works with the Pack Committee in planning monthly leader meetings. Coordinates with Den Leaders in preparation for Pack Meetings. Acts as master of ceremonies during Pack meetings.
+
+{% include about-links.md %}
 
 ## Den Leaders
 Role: These leaders plan and conduce Den meetings in accordance with the Pack program. They establish a good working relationship with Den parents to foster a support team for the Dens. They work with these teams to help plan Den activities and meetings.
