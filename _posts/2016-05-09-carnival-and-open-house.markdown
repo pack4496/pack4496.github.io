@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Carnival & Open House
-date: 2016-05-09 17:07:58 -0700
+date: 2016-05-09
 pin: true
 sub_title: Come learn about Scouting!
 ---
