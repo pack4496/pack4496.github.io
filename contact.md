@@ -15,5 +15,5 @@ Any questions about joining our Pack? Contact Keri Pinzon at
 
 
 <h3>Facebook</h3>
-[Cub Scout Pack 4496 on Facebook](https://facebook.com/bainbridgeislandscouts)
+<a href="https://facebook.com/bainbridgeislandscouts" target="_blank">Cub Scout Pack 4496 on Facebook</a>
 <i class='fa fa-external-link'></i>
