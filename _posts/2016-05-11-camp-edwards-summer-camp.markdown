@@ -3,7 +3,6 @@ layout: post
 title: Camp Edwards Summercamp
 date: 2016-04-11
 pin: true
-sub_title: 
 ---
 
 Summer Camp is four days and three nights of total action that your Scout will not forget. Swimming, building, crafting, playing, eating, singing, climbing and more. Parents are pretty much with their Scout the whole time, so its really a great time being and doing things together. Its a great opportunity for Scouts to complete a lot of advancement, and for Parents, they pretty much get to hang out and take it easy. Coffee is brought to our campsite at 7am every day!
