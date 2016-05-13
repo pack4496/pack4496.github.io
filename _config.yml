@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Pack 4496 is the oldest Cub Scout Pack on Bainbridge Island, in existence for over 60 years. For boys in grades first through fifth, we are a parent-run organization dedicated to instilling the values of Scouting by giving our kids a combination of fun and educational experiences.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://pack4496.github.io" # the base hostname & protocol for your site
+url: "https://pack4496.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
